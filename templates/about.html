@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block aboutactive %} active {%endblock aboutactive%}
+{% block aboutcss %} /static/css/about.css {% endblock aboutcss %}
+ {% block body %}
+    <div class="team-section container mb-4">
+		<h1>Our Team Members</h1>
+		<span class="border"></span>
+		<div class="ps">
+			<a href="#p1"><img src="/static/img/manish.jpg" alt="Manish kumar"></a>
+			<a href="#p2"><img src="/static/img/Divas.jpg" alt="Divas Kumar"></a>
+      		<a href="#p3"><img src="/static/img/AMLESH.jpg" alt="Amlesh Kumar"></a>
+		</div>
+		<div class="section" id="p1">
+			<span class="name">Manish kumar Tiwari</span>
+			<span class="border"></span>
+			<p>
+            Manish kumar is  living in Varanasi, Uttar Pradesh. He is currently pursuing MCA from National Institute of technology Karnataka. He has completed his graduation in B.sc(Information Technology) from Mumbai university Mumbai. His programing skill is c, c++, php, html.
+			</p>
+		</div>
+		<div class="section" id="p2">
+			<span class="name">Divas Kumar</span>
+			<span class="border"></span>
+			<p>
+			Divas Kumar is living in Gaya, Bihar. He is currently pursuing MCA from National Institute of technology Karnataka. He has completed his graduation in B.sc (Physics) from Magadh University, Gaya, Bihar. His programing skill is c, c++, python, flutter, html, css, JS.
+			</p>
+		</div>
+    <div class="section" id="p3">
+			<span class="name">Amlesh Kumar</span>
+			<span class="border"></span>
+			<p>
+		Amlesh kumar is  living in Sitamarhi, Bihar. He is currently pursuing MCA from National Institute of technology Karnataka. He has completed his graduation in BCA( Bachelor of computer application) from Bihar university Bihar. His programing skill is c, c++, php, html, python
+		</p>
+		</div>
+	</div>
+   {% endblock body %}
